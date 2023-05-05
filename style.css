@@ -150,6 +150,7 @@ main {
 
 .projects-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items:baseline;
     margin: 60px auto 120px;
@@ -171,7 +172,7 @@ main {
     opacity: 40%;
     box-sizing: border-box;
     border: solid #B3A18C;
-    margin: auto;
+    margin: 0 auto 30px auto;
 }
 
 .project img:hover {
